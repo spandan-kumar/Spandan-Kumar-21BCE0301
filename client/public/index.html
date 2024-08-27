@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess-like Game</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="board"></div>
+        <div id="controls">
+            <button id="start-game">Start New Game</button>
+            <div id="move-input">
+                <input type="text" id="move-command" placeholder="Enter move (e.g., P1:F)">
+                <button id="submit-move">Submit Move</button>
+            </div>
+        </div>
+        <div id="game-status"></div>
+    </div>
+    <script src="../src/index.js" type="module"></script>
+</body>
+</html>
